@@ -1,0 +1,40 @@
+.bg-amarillo-main {
+    background: #F2D300;
+}
+
+.bg-gris-nav {
+    background: #353a40;
+}
+
+.text-verde-ticket {
+    color: #3d9756;
+}
+
+.relative {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.container-imagen {
+    height: 100vh;
+    background-color: black;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.imagen {
+    height: 100vh;
+    background-image: url(../img/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    right: 7rem;
+}
