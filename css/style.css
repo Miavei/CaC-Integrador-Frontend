@@ -70,3 +70,21 @@
     --bs-btn-active-bg: #2ddb90;
     --bs-btn-active-border-color: #2ddb90;
 }
+
+.container-orador {
+    width: 80%;
+}
+
+.p-chico {
+    font-size: 0.8rem;
+}
+
+.btn-verde-react {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #16a1b7;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #27a8c6;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #27a8c6;
+    --bs-btn-active-border-color: #27a8c6;
+}
