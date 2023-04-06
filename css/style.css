@@ -1,3 +1,7 @@
+body {
+    font-size: 16px;
+}
+
 .bg-amarillo-main {
     background: #F2D300;
 }
@@ -46,7 +50,6 @@
         margin-right: 0.5rem;
     }
 }
-
 
 @media (min-width: 576px) and (max-width: 991.98px) {
     .bsas-align {
@@ -114,4 +117,12 @@
     background-image: url(../img/honolulu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.tool {
+    text-decoration: underline dotted black;
+}
+
+legend {
+    font-size: 1rem;
 }
