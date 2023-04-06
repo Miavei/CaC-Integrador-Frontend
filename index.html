@@ -14,7 +14,7 @@
     <title>Conf Bs As</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-gris-nav navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg bg-gris navbar-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -57,8 +57,8 @@
       </div>
     </nav>
 
-    <div class="container-fluid p-0 position-relative container-imagen text-white clearfix">
-      <div class="imagen"></div>
+    <div class="container-fluid p-0 position-relative text-white clearfix" id="container-imagen-1">
+      <div id="imagen-1"></div>
       <!--<img src="img/ba1.jpg" alt="" class="img-fluid">-->
       <!--<img src="img/ba1.jpg" alt="" class="card-img-overlay">-->
       <div class="row justify-content-end bsas-align position-absolute top-50 end-0 translate-middle-y">
@@ -66,7 +66,7 @@
           <h1>Conf Bs As</h1>
           <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
           <div class="container p-1">
-            <button type="button" class="btn btn-outline-light btn-blanco-orador margin-bottom-boton">Quiero ser orador</button>
+            <button type="button" class="btn btn-outline-light btn-transparente margin-bottom-boton">Quiero ser orador</button>
             <a class="ms-1" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
               <button type="button" class="btn btn-verde-ticket">Comprar tickets</button>
             </a>
@@ -83,7 +83,9 @@
       <div class="row">
         <div class="col-md-4 pb-2 pb-md-0">
           <div class="card w-100 p-0" style="width: 18rem;">
-            <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs sosteniendo un celular.">
+            <div id="container-imagen-steve">
+              <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs sosteniendo un celular.">
+            </div>
             <div class="card-body">
               <a href="https://www.w3schools.com/js/" target="_blank" class="btn btn-warning p-chico fw-bold p-1 py-0">JavaScript</a>
               <a href="https://www.w3schools.com/react/default.asp" target="_blank" class="btn btn-verde-react p-chico fw-bold p-1 py-0">React</a>
@@ -94,7 +96,9 @@
         </div>
         <div class="col-md-4 pb-2 pb-md-0">
           <div class="card w-100 p-0" style="width: 18rem;">
-            <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates hablando.">
+            <div id="container-imagen-bill">
+              <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates hablando.">
+            </div>
             <div class="card-body">
               <a href="https://www.w3schools.com/js/" target="_blank" class="btn btn-warning p-chico fw-bold p-1 py-0">JavaScript</a>
               <a href="https://www.w3schools.com/react/default.asp" target="_blank" class="btn btn-verde-react p-chico fw-bold p-1 py-0">React</a>
@@ -105,7 +109,9 @@
         </div>
         <div class="col-md-4">
           <div class="card w-100 p-0" style="width: 18rem;">
-            <img src="img/ada.jpeg" class="card-img-top" alt="Steve Jobs sosteniendo un celular.">
+            <div id="container-imagen-ada">
+              <img src="img/ada.jpeg" class="card-img-top" alt="Steve Jobs sosteniendo un celular.">
+            </div>
             <div class="card-body">
               <a href="https://www.w3schools.com/js/" target="_blank" class="btn btn-secondary p-chico fw-bold p-1 py-0">Negocios</a>
               <a href="https://www.w3schools.com/react/default.asp" target="_blank" class="btn btn-danger p-chico fw-bold p-1 py-0">Startups</a>
@@ -117,41 +123,15 @@
       </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container-fluid mt-4">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4 p-3 bg-danger text-white">
-          <h2>Ingredientes necesarios</h2>
-          <ul>
-            <li>300 gramos de harina.</li>
-            <li>30 gramos de levadura fresca.</li>
-            <li>Agua - Cantidad necesaria.</li>
-            <li>2 cucharadas de aceite.</li>
-            <li>1 botella de salsa de tomate</li>
-          </ul>
+        <div class="col-12 col-lg-6 p-0 border border-light-subtle border-start-0" id="container-imagen-3">
+          <img src="img/honolulu.jpg" alt="Playa en Honolulu." width="100%">
         </div>
-        <div class="col-12 col-sm-6 col-lg-8 p-3 bg-primary text-white">
-          <h2>Pasos para la cocción</h2>
-          <ol>
-            <li>Disponer la harina en un bowl.</li>
-            <li>
-              Agregar el aceite, la levadura y el agua. Unir todos los
-              ingredientes hasta formar una masa y amasar por 10 minutos más.
-              Reservar por 15 minutos.
-            </li>
-            <li>
-              Dividir el bollo de masa por la mitad y estirar las 2 pizzas sobre
-              una fuente para horno. Dejar fermentar por 10 minutos y cubrir con
-              la salsa de tomate.
-            </li>
-            <li>
-              Cocinar en horno precalentado medio (180°C) hasta que resulten
-              cocidas.
-            </li>
-            <li>
-              Termina de armar las pizzas a tu gusto (mozzarella, albahaca,
-              etc), gratinar y a disfrutar!
-            </li>
-          </ol>
+        <div class="col-12 col-lg-6 p-3 bg-gris text-white border border-light-subtle border-start-0 border-end-0">
+          <h2>Bs As - Octubre</h2>
+          <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidadada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).</p>
+          <a href="#" class="btn btn-outline-light btn-transparente">Conocé más</a>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
     background: #F2D300;
 }
 
-.bg-gris-nav {
+.bg-gris {
     background: #353a40;
 }
 
@@ -10,7 +10,7 @@
     color: #3d9756;
 }
 
-.container-imagen {
+#container-imagen-1 {
     height: 100vh;
     background-color: black;
 }
@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-.imagen {
+#imagen-1 {
     height: 100vh;
     background-image: url(../img/ba1.jpg);
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@
     }
 }
 
-.btn-blanco-orador {
+.btn-transparente {
     --bs-btn-hover-color: var(--bs-white);
     --bs-btn-hover-bg: #FFFFFF33;
     --bs-btn-active-color: var(--bs-btn-hover-color);
@@ -87,4 +87,31 @@
     --bs-btn-active-color: var(--bs-btn-hover-color);
     --bs-btn-active-bg: #27a8c6;
     --bs-btn-active-border-color: #27a8c6;
+}
+
+#container-imagen-steve {
+    background-color: #09071d;
+}
+
+#container-imagen-bill {
+    background-color: #6a696e;
+}
+
+#container-imagen-ada {
+    background-color: #33342f;
+}
+
+#container-imagen-ada {
+    background-color: #33342f;
+}
+
+#container-imagen-3 {
+    background-color: #2f60ac;
+}
+
+#imagen-3 {
+    height:100%;
+    background-image: url(../img/honolulu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
