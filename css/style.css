@@ -126,3 +126,18 @@ body {
 legend {
     font-size: 1rem;
 }
+
+#form-text {
+    height: 7rem;
+}
+
+.btn-verde-enviar {
+    font-size: 1.2rem;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #96c93e;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #bcd556;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #cbe168;
+    --bs-btn-active-border-color: #cbe168;
+}

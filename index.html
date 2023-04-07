@@ -141,29 +141,27 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-primary pt-4 col-6">
+    <div class="container-fluid pt-4 col-md-9 col-lg-6 pb-3">
       <div class="text-center">
         <p class="p-chico mb-0">CONVIÉRTETE EN UN</p>
         <h2>ORADOR</h2>
         <form action="#">
           <legend>Anótate como orador para dar una <span href="#" data-toggle="tooltip" title="Presentación de 5 minutos con 20 diapositivas." class="tool">charla ignite</span>. Cuéntanos de qué quieres hablar!</legend>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div class="row gx-4 mb-3">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <input type="text" class="form-control form-control-sm" id="form-name" name="form-name" placeholder="Nombre" />
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control form-control-sm" id="form-surname" name="form-surname" placeholder="Apellido" />
+              </div>
+            </div>
+            <textarea class="form-control form-control-lg" id="form-text" aria-describedby="textHelp" placeholder="Sobre qué quieres hablar?"></textarea>
+            <div id="textHelp" class="form-text text-start p-chico">Recuerda incluir un título para tu charla</div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-verde-enviar col-12">Enviar</button>
         </form>
       </div>
-      
     </div>
 
     <script
