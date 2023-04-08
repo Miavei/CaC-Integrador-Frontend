@@ -141,3 +141,25 @@ legend {
     --bs-btn-active-bg: #cbe168;
     --bs-btn-active-border-color: #cbe168;
 }
+
+.bg-azul {
+    background: rgb(28,54,67);
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+}
+
+footer div div div a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div div div a:hover {
+    color: #FFFFFFDD;
+}
+
+footer div div div a:active {
+    color: #FFFFFF66;
+}
+
+footer div div div a:active {
+    color: #FFFFFF44;
+}
