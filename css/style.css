@@ -163,3 +163,7 @@ footer div div div a:active {
 footer div div div a:active {
     color: #FFFFFF44;
 }
+
+#oradores, #lugar-fecha {
+    scroll-margin-top: 5rem;
+}
