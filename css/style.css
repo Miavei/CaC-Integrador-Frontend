@@ -167,3 +167,43 @@ footer div div div a:active {
 #oradores, #lugar-fecha {
     scroll-margin-top: 5rem;
 }
+
+.texto-chico {
+    font-size: 0.9rem;
+}
+
+.p-total {
+    background-color: #cce5ff;
+    border: #b8daff solid 0.1rem;
+    border-radius: 0.3rem;
+    color: #0040a5;
+}
+
+.cuadro-estudiante {
+    border: #007bff solid 0.1rem;
+}
+
+.cuadro-trainee {
+    border: #17a2b8 solid 0.1rem;
+}
+
+.cuadro-junior {
+    border: #ffc107 solid 0.1rem;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.porcentaje {
+    font-weight: bold;
+}
+
+.texto-gris {
+    color: #666;
+}
+
+.p-mas-chico {
+    font-size: 0.7rem;
+}
