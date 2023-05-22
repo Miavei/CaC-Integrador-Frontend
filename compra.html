@@ -11,11 +11,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <script>
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
     <title>Conf Bs As: comprar tickets</title>
   </head>
   <body>
@@ -127,7 +122,7 @@
           </div>
 
           <div class="mb-4 text-start p-2 ps-3 p-total">
-            <p class="texto-chico mb-0 p-1">Total a pagar: $</p>
+            <p class="texto-chico mb-0 p-1">Total a pagar: $<span id="total-a-pagar"></span></p>
           </div>
 
           <div class="row gx-2">
@@ -175,5 +170,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="js/js.js"></script>
   </body>
 </html>
