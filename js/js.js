@@ -10,9 +10,10 @@ const TICKET = 200;
 
 const FORM_CATEGORY = document.getElementById("form-category");
 const FORM_QUANTITY = document.getElementById("form-quantity");
+const BORRAR = document.getElementById("borrar");
 
 function cuenta(cantidad_, descuento_) {
-    total.innerHTML = (TICKET * cantidad_) / 100 * descuento_;
+    total.innerHTML = (TICKET * cantidad_) - ((TICKET * cantidad_) / 100 * descuento_);
 }
 
 FORM_CATEGORY.addEventListener("change", function() {
@@ -26,3 +27,7 @@ FORM_QUANTITY.onkeyup = function() {
     cantidad = this.value;
     cuenta(cantidad, descuento);
 };
+
+BORRAR.onclick = function() {
+    total.innerHTML = 0;
+}
