@@ -26,6 +26,10 @@ FORM_CATEGORY.addEventListener("change", function() {
 
 FORM_QUANTITY.onkeyup = function() {
     cantidad = this.value;
+    if ((cantidad.indexOf(" ") >= 0) || (cantidad == "") || isNaN(cantidad)) {
+        cantidad = 0;
+    }
+    if (cantidad != 0) cantidad = parseInt(cantidad);
     cuenta(cantidad, descuento);
 };
 
