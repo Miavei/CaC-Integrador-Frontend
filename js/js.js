@@ -1,8 +1,8 @@
 var total = document.getElementById("total-a-pagar");
 total.innerHTML = 0;
 
-var categoria = "estudiante";
-var descuento = 80;
+var categoria = "ninguna";
+var descuento = 0;
 
 var cantidad = 0;
 
@@ -20,6 +20,7 @@ FORM_CATEGORY.addEventListener("change", function() {
     if (this.value == "estudiante") descuento = 80;
     else if (this.value == "trainee") descuento = 50;
     else if (this.value == "junior") descuento = 15;
+    else if (this.value == "ninguna") descuento = 0;
     cuenta(cantidad, descuento);
 });
 
